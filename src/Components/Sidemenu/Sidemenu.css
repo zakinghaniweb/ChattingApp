@@ -1,0 +1,19 @@
+.sidemenu-wrapper{
+    @apply
+    w-[61px] 
+    h-screen 
+    flex 
+    flex-col 
+    gap-[30px] 
+    px-[20px] 
+    py-[30px]
+}
+.sidemenu-wrapper a,.sidemenu-wrapper button{
+    @apply
+    cursor-pointer
+    text-[20px]
+    transition-all
+    duration-[300ms]
+    text-[#D4D4D4]
+    hover:text-[#48B7FF]
+}
