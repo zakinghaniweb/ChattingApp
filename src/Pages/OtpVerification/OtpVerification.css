@@ -1,0 +1,136 @@
+@reference "../../index.css";
+.otp{
+    @apply
+    w-[440px]
+    bg-[#FFFFFF]
+    rounded-[16px]
+}
+.otp-row{
+    @apply
+    p-[40px]
+}
+/* otp Head */
+.otp-head .otp-logo{
+    @apply
+    w-full
+    flex
+    justify-center
+}
+.otp-head .otp-logo img{
+    @apply
+    w-[64px]
+}
+.otp-head h1{
+    @apply
+    font-poppins
+    font-bold
+    text-[24px]
+    mt-[15px]
+    text-center
+}
+.otp-head p{
+    @apply
+    font-poppins
+    font-normal
+    text-[14px]
+    text-center
+}
+/* otp Form */
+.otp-form{
+    @apply
+    w-full
+    mt-[30px]
+    flex
+    flex-col
+    justify-center
+}
+.otp-form .otp-input-group{
+    @apply
+    flex
+    w-full
+    h-[48px]
+    border-[2px]
+    border-[#E8EDF2]
+    rounded-[8px]
+    mt-[8px]
+    mb-[10px]
+    gap-[20px]
+}
+.otp-form .otp-input-group input{
+    @apply
+    w-full
+    h-full
+    rounded-[8px]
+    font-poppins
+    font-normal
+    text-[14px]
+    pl-[15px]
+}
+.otp-form .otp-input-group i{
+    @apply
+    text-[16px]
+    text-[#9A9AAF]
+    p-[15px]
+}
+.otp-form label{
+    @apply
+    font-poppins
+    font-normal
+    text-[14px]
+    text-[#07070C]
+}
+.otp-form .otp-submit{
+    @apply
+    w-full
+    py-[14px]
+    cursor-pointer
+    bg-brandColor
+    hover:bg-brandColor/80
+    transition
+    rounded-lg
+    font-poppins
+    font-semibold
+    text-[16px]
+    text-[#FFFFFF]
+}
+.alert{
+    @apply
+    w-full
+    h-[52px]
+    flex
+    items-center
+    pl-[20px]
+    bg-[#F1000020]
+    border-[1px]
+    border-red-500
+    rounded-lg
+    mb-[10px]
+}
+.alert p{
+    @apply
+    font-poppins
+    font-semibold
+    text-[14px]
+    text-red-600
+}
+
+.success{
+    @apply
+    w-full
+    h-[52px]
+    flex
+    items-center
+    pl-[20px]
+    bg-[#02D40520]
+    border-[1px]
+    border-green-500
+    rounded-lg
+    mb-[10px]
+}
+.success p{
+    @apply
+    font-poppins
+    font-semibold
+    text-[14px]
+    text-green-600
+}
